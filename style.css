@@ -1,0 +1,165 @@
+/* Estilos base */
+body {
+    font-family: 'Sevillana', cursive;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Añade transición para el efecto hover */
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+}
+
+.intro-text p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: #ff6347;
+}
+
+.description {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+body.dark-mode .description {
+    background-color: #444; /* Ajuste para fondo oscuro */
+    color: #f0f0f0;
+}
+
+body.dark-mode header {
+    background-color: #0056b3;
+}
+
+body.dark-mode a {
+    color: #66b3ff;
+}
+
+body.dark-mode button {
+    background-color: #0056b3;
+}
+
+body.dark-mode button:hover {
+    background-color: #003d7a;
+}
+
+body.dark-mode footer {
+    background-color: #444;
+}
+
+/* Añade esta regla al final de tu archivo CSS */
+
+/* Efecto hover para la palabra Sammy */
+.highlight {
+    color: #ff6347;
+    transition: transform 0.3s ease; /* Añade una transición suave */
+    display: inline-block; /* Necesario para que transform funcione en elementos inline */
+}
+
+.highlight:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.button {
+    font-size: 2rem;
+    box-shadow: 0px 0px 20px aqua;
+    border-radius: 12px;
+    background-color: aqua;
+    padding: 10px 20px;
+    margin: 10px;
+    /* Quitamos el ancho fijo */
+    /* width: 10%; */
+    text-align: center;
+    /* Agregamos estos estilos para que el botón se ajuste al contenido */
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 50px aqua;
+}
+
